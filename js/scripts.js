@@ -1,6 +1,6 @@
-import * as THREE from 'three'
+import * as THREE from './three.module.js'
 import { Engine as e } from './Engine.js'
-import { TransformControls } from 'three/addons/controls/TransformControls.js'
+import { TransformControls } from './TransformControls.js'
 import { SkyLights } from './SkyLights.js'
 
 e.canvas = document.querySelector('#c')
@@ -21,7 +21,7 @@ showLoader()
 init()
 
 function init() {
-    e.addStats()
+    // e.addStats()
     e.run(animation)
     e.orbit = e.initOrbit()
     e.orbit.target.set(0, 1, 0)

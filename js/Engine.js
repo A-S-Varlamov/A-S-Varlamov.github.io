@@ -1,8 +1,8 @@
 // myEngine v. 0.4
 
-import * as THREE from 'three'
-import Stats from 'stats-gl'
-import { OrbitControls } from 'three/addons/controls/OrbitControls.js'
+import * as THREE from './three.module.js'
+// import Stats from 'stats-gl'
+import { OrbitControls } from './OrbitControls.js'
 
 export class Engine {
 
