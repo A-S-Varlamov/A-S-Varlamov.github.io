@@ -1,7 +1,7 @@
 // myEngine v. 0.4
 
 import * as THREE from 'three'
-import Stats from 'stats-gl'
+// import Stats from 'stats-gl'
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js'
 
 export class Engine {
@@ -9,13 +9,13 @@ export class Engine {
     static renderer = createRenderer(this.canvas)
     static scene = new THREE.Scene()
     static camera = createCamera(65, 0.1, 1000)
-    static stats = new Stats( { precision: 3, horizontal: false } )
+    // static stats = new Stats( { precision: 3, horizontal: false } )
 
-    static addStats() {
-        this.stats.init( this.renderer )
-        document.body.appendChild( this.stats.dom )
-        this.stats.dom.style.position = 'absolute'
-    }
+    // static addStats() {
+    //     this.stats.init( this.renderer )
+    //     document.body.appendChild( this.stats.dom )
+    //     this.stats.dom.style.position = 'absolute'
+    // }
 
     static run(animate) {
         this.renderer.setAnimationLoop( animate )

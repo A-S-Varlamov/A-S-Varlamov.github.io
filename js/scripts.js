@@ -21,7 +21,7 @@ showLoader()
 init()
 
 function init() {
-    e.addStats()
+    // e.addStats()
     e.run(animation)
     e.orbit = e.initOrbit()
     e.orbit.target.set(0, 1, 0)
