@@ -1,0 +1,40 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+}
+
+#loader {
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    width: 100%;
+}
+
+.loadPanel {
+    display: grid;
+    background-color: white;
+    border-radius: 5px;
+    width: 120px;
+    height: 80px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 10;
+}
+
+#loader img {
+    width: 30px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#loader b {
+    margin-top: 10px;
+}
+
+.not-visible {
+    visibility: hidden;
+}
