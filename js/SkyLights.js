@@ -1,6 +1,6 @@
-import * as THREE from './three.module.js'
+import * as THREE from 'three'
 import { Engine as e } from './Engine.js'
-import { RGBELoader } from './RGBELoader.js'
+import { RGBELoader } from 'three/addons/loaders/RGBELoader.js'
 
 export class SkyLights {
 
